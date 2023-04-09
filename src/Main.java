@@ -7,9 +7,7 @@ public class Main {
         employeeBook.addEmployee("Петр", "Иванов", "Иванович", 35_000, 1);
         employeeBook.addEmployee(ivan);
 
-        //employeeBook.removeEmployee(1);
         employeeBook.changeSalary(ivan, 43_000);
-        //employeeBook.changeDepartment(ivan, 1);
 
         employeeBook.printEmployeesByDepartment();
 
